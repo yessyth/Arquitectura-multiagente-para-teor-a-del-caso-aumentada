@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import json
 from datetime import datetime
-from config import DATA_DIR
+from config import DATA_DIR, METRICS_PATH
 from pdf_reader import PDFReader
 from case_detector import CaseTypeDetector, CASE_TYPES
 from agents.factual_agent import FactualAgent
@@ -113,6 +113,9 @@ class Orchestrator:
             self.hpn_filas, self.network, self.full_text
         )
         self.metrics["tipo_caso"] = self.case_config["label"]
+        if os.path.exists(METRICS_PATH):
+            with open(METRICS_PATH, "w", encoding="utf-8") as f:
+                json.dump(self.metrics, f, ensure_ascii=False, indent=2)
         for k, v in self.metrics.items():
             if isinstance(v, (int, float)):
                 print(f"  -> {k}: {v}")

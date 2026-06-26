@@ -49,6 +49,8 @@ st.set_page_config(
 st.title("⚖️ Teoría del Caso Aumentada")
 st.markdown("Dashboard de apoyo estratégico para litigio aumentado")
 
+data = load_data()
+
 # Show detected case type
 if data.get("metrics") and data["metrics"].get("tipo_caso"):
     case_label = data["metrics"]["tipo_caso"]
@@ -56,8 +58,6 @@ if data.get("metrics") and data["metrics"].get("tipo_caso"):
     icon = colors.get(case_label, "⚪")
     st.markdown(f"### {icon} Tipo de caso detectado: **{case_label}**")
 st.markdown("---")
-
-data = load_data()
 
 if not data.get("hpn") and not data.get("metrics"):
     st.warning(
@@ -357,7 +357,7 @@ with tab5:
     st.markdown("Laboratorio estratégico: se perturba la matriz y la red para observar efectos.")
 
     if data.get("scenarios"):
-        for esc in data["scenarios"]:
+        for idx, esc in enumerate(data["scenarios"]):
             with st.expander(f"{esc.get('id', 'N/A')}: {esc.get('nombre', 'Sin nombre')}", expanded=False):
                 st.markdown(f"**Descripción:** {esc.get('descripcion', '')}")
                 st.markdown(f"**Confianza:** {esc.get('confianza', 'N/A')}")
@@ -396,7 +396,7 @@ with tab5:
                             barmode="group",
                             title="Comparación Antes/Después",
                         )
-                        st.plotly_chart(fig, width='stretch', key=f"scenario_{esc.get('id', 'none')}")
+                        st.plotly_chart(fig, width='stretch', key=f"scenario_{esc.get('id', 'none')}_{idx}")
 
                 if esc.get("acciones_sugeridas"):
                     st.markdown("**Acciones Sugeridas:**")
@@ -455,15 +455,24 @@ with tab6:
     for p in preguntas:
         st.markdown(f"- ❓ {p}")
 
-    st.markdown("---")
-    st.caption(
-        "**Nota:** Este sistema no reemplaza el criterio del abogado. "
-        "Todas las conclusiones requieren revisión humana antes de ser utilizadas en litigio."
+    st.warning(
+        "**Limitaciones del sistema:**\n\n"
+        "1. Este sistema **no reemplaza el criterio del abogado**. La decisión jurídica final "
+        "permanece en cabeza humana.\n"
+        "2. Las métricas y escenarios son indicadores estructurales, **no predicciones** de "
+        "resultados judiciales.\n"
+        "3. No sustituye la valoración probatoria profesional.\n"
+        "4. Todas las filas HPN requieren **revisión humana** antes de ser utilizadas.\n"
+        "5. El sistema puede contener errores de extracción propios de un sistema basado en "
+        "reglas."
     )
 
 # --- Footer ---
 st.markdown("---")
 st.markdown(
     "**Teoría del Caso Aumentada** | Ciencia de Datos - Ingeniería de Sistemas | "
-    "Universidad de Pamplona 2026-1"
+    "Universidad de Pamplona 2026-1  |  "
+    "**Regla de frontera:** El sistema no promete resultados judiciales, "
+    "no sustituye la valoración probatoria profesional y no presenta sus conclusiones "
+    "como asesoría jurídica definitiva."
 )

@@ -1,6 +1,7 @@
 import json
+import os
 import networkx as nx
-from config import NETWORK_PATH
+from config import NETWORK_PATH, DATA_DIR
 
 
 class MultilayerNetwork:
@@ -63,6 +64,11 @@ class MultilayerNetwork:
         data = self.to_dict()
         with open(NETWORK_PATH, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+        try:
+            graphml_path = os.path.join(DATA_DIR, "multilayer_network.graphml")
+            nx.write_graphml(self.graph, graphml_path, encoding="utf-8")
+        except Exception:
+            pass
 
     def get_summary(self):
         layers = {}

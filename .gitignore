@@ -7,4 +7,5 @@ data/hpn_matrix.json
 data/metrics.json
 data/multilayer_network.json
 data/scenarios.json
-outputs/
+outputs/*.pdf
+outputs/*.html

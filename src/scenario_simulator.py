@@ -25,16 +25,20 @@ class ScenarioSimulator:
             self._escenario_testigo_contradictorio()
             self._escenario_inadmisibilidad()
 
-        self._escenario_generico("S5", "Precedente desfavorable",
+        n = len(self.escenarios) + 1
+        self._escenario_generico(f"S{n}", "Precedente desfavorable",
             "Un precedente jurisprudencial limita la interpretacion juridica del caso",
             ["Revisar jurisprudencia alternativa", "Preparar distincion del precedente"])
-        self._escenario_generico("S6", "Prueba sobreviniente",
+        n = len(self.escenarios) + 1
+        self._escenario_generico(f"S{n}", "Prueba sobreviniente",
             "Aparece una nueva prueba que modifica el equilibrio del caso",
             ["Incorporar nueva prueba", "Reevaluar matriz HPN"])
-        self._escenario_generico("S7", "Limite temporal",
+        n = len(self.escenarios) + 1
+        self._escenario_generico(f"S{n}", "Limite temporal",
             "Se activa un plazo de prescripcion o caducidad que afecta pretensiones",
             ["Verificar fechas clave", "Actuar con caracter urgente"])
-        self._escenario_generico("S8", "Negociacion o conciliacion",
+        n = len(self.escenarios) + 1
+        self._escenario_generico(f"S{n}", "Negociacion o conciliacion",
             "Evaluar escenario de terminacion anticipada del proceso",
             ["Preparar propuesta de acuerdo", "Analizar costos de litigar"])
 
