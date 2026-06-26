@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/agent_logs.jsonl
+data/fragments.jsonl
+data/hpn_matrix.csv
+data/hpn_matrix.json
+data/metrics.json
+data/multilayer_network.json
+data/scenarios.json
+outputs/

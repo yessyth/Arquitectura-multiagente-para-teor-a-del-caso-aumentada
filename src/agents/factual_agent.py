@@ -7,7 +7,7 @@ class FactualAgent(BaseAgent):
     def __init__(self):
         super().__init__("agente_factico", "Identifica hechos, actores, fechas y eventos del expediente")
 
-    def run(self, fragments: list, full_text: str):
+    def run(self, fragments: list, full_text: str, case_config: dict = None):
         self.log("extrayendo_hechos", {"num_fragments": len(fragments)})
         hechos = []
         actores = set()
@@ -20,13 +20,47 @@ class FactualAgent(BaseAgent):
         actor_keywords = [
             "demandante", "demandado", "actor", "parte demandante", "parte demandada",
             "testigo", "perito", "juez", "tribunal", "tercero",
+            "victima", "imputado", "acusado", "procesado", "sindicado",
+            "fiscal", "trabajador", "empleador", "conyuge", "menor",
         ]
-        hecho_keywords = [
-            "hecho", "ocurri", "sucedi", "aconteci", "realiz", "entreg",
-            "firm", "acord", "notific", "present", "recibi", "contrat",
-            "pag", "incumpli", "suscribi", "oblig", "establec", "pact",
-            "venci", "configur", "recibi", "manifest",
+
+        hecho_keywords = case_config.get("hechos_keywords", [
+            "contrat", "oblig", "incumpli", "entreg", "pag", "firm",
+            "acord", "suscribi", "establec", "pact", "venci",
+        ]) if case_config else [
+            "hecho", "ocurri", "sucedi", "aconteci",
         ]
+
+        skip_patterns = [
+            r"^INFORME\s+(DE|TÉCNICO|FINAL|PREVIO)",
+            r"^EVIDENCIA\s+E-\d+",
+            r"^PRUEBA\s+\d+",
+            r"^P\d+\s*[:.].*",
+            r"^REF-",
+            r"^Cas[oó]:",
+            r"^Fecha\s+de\s+(suscripción|los\s+hechos)",
+            r"^Lugar:",
+            r"^Cuant[íi]a",
+            r"^Relación\s+de\s+Hechos",
+            r"^ANEXO",
+            r"^\d+\.\s*$",
+            r"^[A-Z\s]{10,}$",
+            r"^El contrato se rige",
+        ]
+
+        # Actor extraction by role contexts
+        role_extractors = [
+            (["demandante", "demandado", "parte", "actor", "senor", "senora",
+              "empresa", "representante", "jefe", "ingeniero", "director",
+              "doctor", "abogado", "licenciado"], "civil"),
+            (["victima", "imputado", "acusado", "procesado", "sindicado",
+              "fiscal", "testigo", "perito", "ofendido"], "penal"),
+            (["trabajador", "empleador", "empleado", "jefe", "supervisor",
+              "companero"], "laboral"),
+            (["conyuge", "esposo", "esposa", "padre", "madre", "hijo",
+              "menor", "custodio"], "familia"),
+        ]
+        all_roles = list(set(r for roles, _ in role_extractors for r in roles))
 
         hecho_id = 0
         for frag in fragments:
@@ -37,49 +71,56 @@ class FactualAgent(BaseAgent):
             for match in date_pattern.finditer(text):
                 fechas.append({"fecha": match.group(), "pagina": page, "fragmento": frag_id})
 
-            for kw in actor_keywords:
+            for kw in all_roles:
                 for m in re.finditer(
-                    rf"(?:el|la|los|las|senor|senora|empresa|senorita)\s+{kw}\s*[,;:.]?\s*([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)",
+                    rf"(?:el|la|los|las|senor|senora|empresa|senorita|la)\s+{kw}\s*[,;:.]?\s*([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)",
                     text, re.IGNORECASE,
                 ):
                     actores.add(m.group(0).strip())
 
             name_pattern = re.compile(
-                r"([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s+(?:[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)",
+                r"([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+\s*(?:[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)",
             )
             for m in name_pattern.finditer(text):
                 name = m.group(1).strip()
                 if len(name) > 8 and not any(kw in name.lower() for kw in
-                    ["clausula", "articulo", "codigo", "expediente", "juzgado", "corte", "sala"]):
+                    ["clausula", "articulo", "codigo", "expediente", "juzgado", "corte", "sala",
+                     "evidencia", "anexo", "informe"]):
                     context_before = text[max(0, m.start()-40):m.start()].lower()
-                    role_words = ["demandante", "demandado", "testigo", "perito", "senor", "senora",
-                                  "parte", "actor", "empresa", "representante", "jefe", "ingeniero"]
-                    if any(rw in context_before for rw in role_words):
-                        actores.add(f"{name} ({context_before.split()[-1] if context_before.split() else 'desconocido'})")
+                    if any(rw in context_before for rw in all_roles):
+                        actores.add(f"{name}")
 
-            sentences = re.split(r'(?<=[.!?])\s+', text)
-            for sent in sentences:
-                sent = sent.strip()
-                if len(sent) > 30 and any(kw in sent.lower() for kw in hecho_keywords):
+            lines = text.split("\n")
+            for line in lines:
+                sent = line.strip()
+                if len(sent) < 30:
+                    continue
+                skip = False
+                for sp in skip_patterns:
+                    if re.match(sp, sent, re.IGNORECASE):
+                        skip = True
+                        break
+                if skip:
+                    continue
+                if any(kw in sent.lower() for kw in hecho_keywords):
                     hecho_id += 1
                     hechos.append(Hecho(
                         id=f"H{hecho_id}",
-                        texto=sent[:200],
-                        fuente=Fuente(pagina=page, fragmento_id=frag_id, texto=sent[:200]),
+                        texto=sent[:250],
+                        fuente=Fuente(pagina=page, fragmento_id=frag_id, texto=sent[:250]),
                     ))
 
-            # Also extract numbered paragraphs as facts
             for m in re.finditer(
                 r"(PRIMERO|SEGUNDO|TERCERO|CUARTO|QUINTO|SEXTO)[:.]\s*([A-ZÁÉÍÓÚÑ].*?)(?=(?:PRIMERO|SEGUNDO|TERCERO|CUARTO|QUINTO|SEXTO|$))",
                 text, re.DOTALL,
             ):
-                paragraph_text = m.group(2).strip()[:200]
-                if len(paragraph_text) > 30:
+                paragraph_text = m.group(2).strip()[:250]
+                if len(paragraph_text) > 40:
                     hecho_id += 1
                     hechos.append(Hecho(
                         id=f"H{hecho_id}",
-                        texto=paragraph_text[:200],
-                        fuente=Fuente(pagina=page, fragmento_id=frag_id, texto=paragraph_text[:200]),
+                        texto=paragraph_text[:250],
+                        fuente=Fuente(pagina=page, fragmento_id=frag_id, texto=paragraph_text[:250]),
                     ))
 
         self.memory["hechos"] = hechos

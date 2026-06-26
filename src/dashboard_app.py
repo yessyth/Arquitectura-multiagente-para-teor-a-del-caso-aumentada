@@ -48,6 +48,13 @@ st.set_page_config(
 
 st.title("⚖️ Teoría del Caso Aumentada")
 st.markdown("Dashboard de apoyo estratégico para litigio aumentado")
+
+# Show detected case type
+if data.get("metrics") and data["metrics"].get("tipo_caso"):
+    case_label = data["metrics"]["tipo_caso"]
+    colors = {"Civil": "🔵", "Penal": "🔴", "Laboral": "🟠", "Familia": "🟢"}
+    icon = colors.get(case_label, "⚪")
+    st.markdown(f"### {icon} Tipo de caso detectado: **{case_label}**")
 st.markdown("---")
 
 data = load_data()

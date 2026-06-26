@@ -4,8 +4,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import json
 from datetime import datetime
-from config import DATA_DIR, LOG_PATH
+from config import DATA_DIR
 from pdf_reader import PDFReader
+from case_detector import CaseTypeDetector, CASE_TYPES
 from agents.factual_agent import FactualAgent
 from agents.evidence_agent import EvidenceAgent
 from agents.normative_agent import NormativeAgent
@@ -22,6 +23,8 @@ class Orchestrator:
         self.pdf_path = pdf_path
         self.fragments = []
         self.full_text = ""
+        self.case_type = "civil"
+        self.case_config = CASE_TYPES["civil"]
         self.hechos = []
         self.actores = []
         self.fechas = []
@@ -61,27 +64,34 @@ class Orchestrator:
         self.full_text = reader.get_full_text()
         print(f"  -> {len(self.fragments)} fragmentos extraidos")
 
+        # Detección de tipo de caso
+        print("\n[Detector] Analizando tipo de caso...")
+        detector = CaseTypeDetector(self.full_text)
+        self.case_type = detector.detect()
+        self.case_config = detector.get_config(self.case_type)
+        print(f"  -> Tipo detectado: {self.case_config['label']}")
+
         # Paso 2: Extracción fáctica y cronológica
         print("\n[2/9] Extrayendo hechos, actores y fechas...")
         self.hechos, self.actores, self.fechas = self.factual_agent.run(
-            self.fragments, self.full_text
+            self.fragments, self.full_text, self.case_config
         )
         print(f"  -> {len(self.hechos)} hechos, {len(self.actores)} actores, {len(self.fechas)} fechas")
 
         # Paso 3: Extracción probatoria
         print("\n[3/9] Extrayendo pruebas...")
-        self.pruebas, self.vacios = self.evidence_agent.run(self.fragments, self.hechos)
+        self.pruebas, self.vacios = self.evidence_agent.run(self.fragments, self.hechos, self.case_config)
         print(f"  -> {len(self.pruebas)} pruebas, {len(self.vacios)} vacios detectados")
 
         # Paso 4: Extracción normativa
         print("\n[4/9] Extrayendo normas...")
-        self.normas = self.normative_agent.run(self.fragments)
+        self.normas = self.normative_agent.run(self.fragments, self.case_config)
         print(f"  -> {len(self.normas)} normas identificadas")
 
         # Paso 5: Construcción de matriz HPN
         print("\n[5/9] Construyendo matriz HPN...")
         self.hpn_matrix, self.hpn_filas = self.hpn_agent.run(
-            self.hechos, self.pruebas, self.normas, self.actores
+            self.hechos, self.pruebas, self.normas, self.actores, self.case_config
         )
         summary = self.hpn_matrix.get_summary()
         print(f"  -> {summary['total_filas']} filas HPN generadas")
@@ -102,6 +112,7 @@ class Orchestrator:
         self.metrics = self.metrics_agent.run(
             self.hpn_filas, self.network, self.full_text
         )
+        self.metrics["tipo_caso"] = self.case_config["label"]
         for k, v in self.metrics.items():
             if isinstance(v, (int, float)):
                 print(f"  -> {k}: {v}")
@@ -109,13 +120,13 @@ class Orchestrator:
 
         # Paso 8: Análisis adversarial
         print("\n[8/9] Analisis adversarial...")
-        self.ataques = self.adversarial_agent.run(self.hpn_filas, self.network)
+        self.ataques = self.adversarial_agent.run(self.hpn_filas, self.network, self.case_config)
         print(f"  -> {len(self.ataques)} ataques/riesgos identificados")
 
         # Paso 9: Simulación de escenarios
         print("\n[9/9] Simulando escenarios procesales...")
         self.escenarios = self.simulator_agent.run(
-            self.hpn_filas, self.network, self.metrics
+            self.hpn_filas, self.network, self.metrics, self.case_config
         )
         print(f"  -> {len(self.escenarios)} escenarios simulados")
 
@@ -126,6 +137,7 @@ class Orchestrator:
 
         print("\n" + "=" * 60)
         print("PROCESO COMPLETADO EXITOSAMENTE")
+        print(f"Tipo de caso: {self.case_config['label']}")
         print("=" * 60)
 
         return {
@@ -143,6 +155,8 @@ class Orchestrator:
             "ataques": self.ataques,
             "escenarios": self.escenarios,
             "alertas_auditoria": self.alertas_auditoria,
+            "case_type": self.case_type,
+            "case_config": self.case_config,
         }
 
 

@@ -6,9 +6,10 @@ class SimulatorAgent(BaseAgent):
     def __init__(self):
         super().__init__("agente_simulador", "Ejecuta escenarios de perturbación sobre matriz y red")
 
-    def run(self, hpn_filas, network, metrics):
+    def run(self, hpn_filas, network, metrics, case_config: dict = None):
         self.log("ejecutando_simulaciones", {"filas_hpn": len(hpn_filas)})
-        simulator = ScenarioSimulator(hpn_filas, network, metrics)
+        escenarios_config = (case_config or {}).get("escenarios", [])
+        simulator = ScenarioSimulator(hpn_filas, network, metrics, escenarios_config)
         escenarios = simulator.run_all()
         simulator.save()
         self.memory["escenarios"] = escenarios
