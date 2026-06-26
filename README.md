@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Teoría del Caso Aumentada - Arquitectura Multiagente
 
 Proyecto integrador del tercer corte - Ciencia de Datos
@@ -118,3 +119,6 @@ Relaciones: soporta, contradice, activa, fundamenta.
 
 Este sistema no reemplaza el criterio del abogado. Todas las conclusiones
 requieren revisión humana antes de ser utilizadas en litigio.
+=======
+# Arquitectura-multiagente-para-teor-a-del-caso-aumentada
+>>>>>>> b83915c1b3fe911a3c788768d505e884202b703b
