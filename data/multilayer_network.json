@@ -1,0 +1,1626 @@
+{
+  "nodes": [
+    {
+      "id": "H1",
+      "label": "2024-00123\nJuzgado Civil del Circuito de Pamplona\n",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "P1",
+      "label": "contrato: P1",
+      "tipo": "contrato",
+      "fuerza": 0.6,
+      "capa": "prueba"
+    },
+    {
+      "id": "P2",
+      "label": "contrato: P2",
+      "tipo": "contrato",
+      "fuerza": 0.7,
+      "capa": "prueba"
+    },
+    {
+      "id": "P3",
+      "label": "correo: P3",
+      "tipo": "correo",
+      "fuerza": 0.8,
+      "capa": "prueba"
+    },
+    {
+      "id": "P4",
+      "label": "contrato: P4",
+      "tipo": "contrato",
+      "fuerza": 0.9,
+      "capa": "prueba"
+    },
+    {
+      "id": "P5",
+      "label": "testimonio: P5",
+      "tipo": "testimonio",
+      "fuerza": 0.5,
+      "capa": "prueba"
+    },
+    {
+      "id": "P6",
+      "label": "peritaje: P6",
+      "tipo": "peritaje",
+      "fuerza": 0.6,
+      "capa": "prueba"
+    },
+    {
+      "id": "P7",
+      "label": "acta: P7",
+      "tipo": "acta",
+      "fuerza": 0.7,
+      "capa": "prueba"
+    },
+    {
+      "id": "N1",
+      "label": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de se",
+      "fuente": "expediente, página 2",
+      "capa": "norma"
+    },
+    {
+      "id": "N2",
+      "label": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION ",
+      "fuente": "expediente, página 3",
+      "capa": "norma"
+    },
+    {
+      "id": "H2",
+      "label": "El dia 15 de enero de 2024, el senor Carlos Andres",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H3",
+      "label": "El contrato establecia un plazo de entrega de 90 d",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H4",
+      "label": "El valor total del contrato fue de $120.000.000 (C",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H5",
+      "label": "La demandada recibio el anticipo el 20 de enero de",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H6",
+      "label": "A la fecha de vencimiento del plazo (15 de abril d",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H7",
+      "label": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de se",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "P8",
+      "label": "contrato: P8",
+      "tipo": "contrato",
+      "fuerza": 0.8,
+      "capa": "prueba"
+    },
+    {
+      "id": "P9",
+      "label": "contrato: P9",
+      "tipo": "contrato",
+      "fuerza": 0.9,
+      "capa": "prueba"
+    },
+    {
+      "id": "P10",
+      "label": "contrato: P10",
+      "tipo": "contrato",
+      "fuerza": 0.5,
+      "capa": "prueba"
+    },
+    {
+      "id": "H8",
+      "label": "Documento que c\nP2: Comprobantes de pago del antic",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H9",
+      "label": "La demandante recibio \nP6: Peritaje tecnico del in",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H10",
+      "label": "Auto admisorio notificado el 25 de junio de 2024.",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H11",
+      "label": "NORMAS APLICABLES\nEl contrato se rige por el Codig",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H12",
+      "label": "Alega la demandada que el re\nSEGUNDA: Cumplimiento",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H13",
+      "label": "Alega la demandada que realizo entregas parciales ",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "H14",
+      "label": "Alega que el contrato no preveia penalidades en lo",
+      "estado": "completo",
+      "riesgo": "bajo",
+      "capa": "hecho"
+    },
+    {
+      "id": "ACT-937",
+      "label": "el demandante de fechas",
+      "capa": "actor"
+    },
+    {
+      "id": "ACT-43",
+      "label": "La demandante recibio",
+      "capa": "actor"
+    },
+    {
+      "id": "ACT-332",
+      "label": "Carlos Andres Martinez (senor)",
+      "capa": "actor"
+    },
+    {
+      "id": "ACT-675",
+      "label": "el demandante, quien afirma que el sistema nunca se puso en prod\nACTUACIONES PROCESALES\nLa demanda fue presentada el",
+      "capa": "actor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "P1",
+      "target": "H1",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H2",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H3",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H4",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H5",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H6",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H7",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H8",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H9",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P1",
+      "target": "H10",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H1",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H2",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H3",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H4",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H5",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H6",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P2",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H1",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H2",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H3",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H4",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H5",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H6",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P3",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H1",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H2",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H3",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H4",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H5",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H6",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P4",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H1",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H2",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H3",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H4",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H5",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H6",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P5",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H1",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H2",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H3",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H4",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H5",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H6",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P6",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.6,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H1",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H2",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H3",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H4",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H5",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H6",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P7",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H1",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H2",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H3",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H4",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H5",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H6",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H7",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H8",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H9",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H10",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H11",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H12",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H13",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N1",
+      "target": "H14",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H1",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H2",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H3",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H4",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H5",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H6",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H7",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H8",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H9",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H10",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H11",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H12",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H13",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "N2",
+      "target": "H14",
+      "type": "activa",
+      "layer_source": "norma",
+      "layer_target": "hecho",
+      "weight": 0.7,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H7",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H8",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H9",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H10",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H11",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H12",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H13",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P8",
+      "target": "H14",
+      "type": "contradice",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.8,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P9",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.9,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H7",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H8",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H9",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H10",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H11",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H12",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H13",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    },
+    {
+      "source": "P10",
+      "target": "H14",
+      "type": "soporta",
+      "layer_source": "prueba",
+      "layer_target": "hecho",
+      "weight": 0.5,
+      "status": "validada_por_agente",
+      "human_review": "pendiente"
+    }
+  ]
+}

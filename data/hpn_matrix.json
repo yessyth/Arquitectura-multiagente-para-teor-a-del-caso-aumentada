@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "HPN-001",
+    "elemento_juridico": "incumplimiento contractual",
+    "hecho": {
+      "id": "H1",
+      "texto": "2024-00123\nJuzgado Civil del Circuito de Pamplona\nHECHOS DEL CASO\nPRIMERO: El dia 15 de enero de 2024, el senor Carlos Andres Martinez (demandante) y la empresa Tecnol\nSEGUNDO: El contrato establecia ",
+      "fuente": {
+        "pagina": 1,
+        "fragmento_id": "frag-001"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 1, fragmento frag-001"
+  },
+  {
+    "id": "HPN-002",
+    "elemento_juridico": "obligacion de pago",
+    "hecho": {
+      "id": "H2",
+      "texto": "El dia 15 de enero de 2024, el senor Carlos Andres Martinez (demandante) y la empresa Tecnol",
+      "fuente": {
+        "pagina": 1,
+        "fragmento_id": "frag-001"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 1, fragmento frag-001"
+  },
+  {
+    "id": "HPN-003",
+    "elemento_juridico": "plazo de entrega",
+    "hecho": {
+      "id": "H3",
+      "texto": "El contrato establecia un plazo de entrega de 90 dias calendario, contados a partir de la fe",
+      "fuente": {
+        "pagina": 1,
+        "fragmento_id": "frag-001"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 1, fragmento frag-001"
+  },
+  {
+    "id": "HPN-004",
+    "elemento_juridico": "calidad del servicio",
+    "hecho": {
+      "id": "H4",
+      "texto": "El valor total del contrato fue de $120.000.000 (CIENTO VEINTE MILLONES DE PESOS), pagaderos",
+      "fuente": {
+        "pagina": 1,
+        "fragmento_id": "frag-001"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 1, fragmento frag-001"
+  },
+  {
+    "id": "HPN-005",
+    "elemento_juridico": "responsabilidad contractual",
+    "hecho": {
+      "id": "H5",
+      "texto": "La demandada recibio el anticipo el 20 de enero de 2024, pero no cumplio con el cronograma de",
+      "fuente": {
+        "pagina": 1,
+        "fragmento_id": "frag-001"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 1, fragmento frag-001"
+  },
+  {
+    "id": "HPN-006",
+    "elemento_juridico": "existencia del contrato",
+    "hecho": {
+      "id": "H6",
+      "texto": "A la fecha de vencimiento del plazo (15 de abril de 2024), la demandada no habia entregado el",
+      "fuente": {
+        "pagina": 1,
+        "fragmento_id": "frag-001"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 1, fragmento frag-001"
+  },
+  {
+    "id": "HPN-007",
+    "elemento_juridico": "causal de excepcion",
+    "hecho": {
+      "id": "H7",
+      "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 2024.",
+      "fuente": {
+        "pagina": 2,
+        "fragmento_id": "frag-002"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 2, fragmento frag-002"
+  },
+  {
+    "id": "HPN-008",
+    "elemento_juridico": "pretension principal",
+    "hecho": {
+      "id": "H8",
+      "texto": "Documento que c\nP2: Comprobantes de pago del anticipo por $48.000.000 del 20 de enero de 2024, que acreditan el cumpl\nP3: Correos electronicos del demandante de fechas 20 de abril, 5 de mayo y 15 de m",
+      "fuente": {
+        "pagina": 2,
+        "fragmento_id": "frag-002"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 2, fragmento frag-002"
+  },
+  {
+    "id": "HPN-009",
+    "elemento_juridico": "pretension subsidiaria",
+    "hecho": {
+      "id": "H9",
+      "texto": "La demandante recibio \nP6: Peritaje tecnico del ingeniero de sistemas que concluye que el sistema presenta un avance del 60%\nP7: Testimonio del jefe de sistemas del demandante, quien afirma que el sis",
+      "fuente": {
+        "pagina": 2,
+        "fragmento_id": "frag-002"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 2, fragmento frag-002"
+  },
+  {
+    "id": "HPN-010",
+    "elemento_juridico": "dano emergente",
+    "hecho": {
+      "id": "H10",
+      "texto": "Auto admisorio notificado el 25 de junio de 2024.",
+      "fuente": {
+        "pagina": 2,
+        "fragmento_id": "frag-002"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P1",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P2",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 2, fragmento frag-002"
+  },
+  {
+    "id": "HPN-011",
+    "elemento_juridico": "lucro cesante",
+    "hecho": {
+      "id": "H11",
+      "texto": "NORMAS APLICABLES\nEl contrato se rige por el Codigo Civil Colombiano: articulos 1500 (obligaciones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el contra",
+      "fuente": {
+        "pagina": 3,
+        "fragmento_id": "frag-003"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 3, fragmento frag-003"
+  },
+  {
+    "id": "HPN-012",
+    "elemento_juridico": "perjuicio moral",
+    "hecho": {
+      "id": "H12",
+      "texto": "Alega la demandada que el re\nSEGUNDA: Cumplimiento de la obligacion.",
+      "fuente": {
+        "pagina": 3,
+        "fragmento_id": "frag-003"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 3, fragmento frag-003"
+  },
+  {
+    "id": "HPN-013",
+    "elemento_juridico": "carga de la prueba",
+    "hecho": {
+      "id": "H13",
+      "texto": "Alega la demandada que realizo entregas parciales recibidas s\nTERCERA: Cobro de lo no debido.",
+      "fuente": {
+        "pagina": 3,
+        "fragmento_id": "frag-003"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 3, fragmento frag-003"
+  },
+  {
+    "id": "HPN-014",
+    "elemento_juridico": "prescripcion de la accion",
+    "hecho": {
+      "id": "H14",
+      "texto": "Alega que el contrato no preveia penalidades en los terminos pretendi\nCUARTA: Prescripcion de la accion cambiaria.",
+      "fuente": {
+        "pagina": 3,
+        "fragmento_id": "frag-003"
+      }
+    },
+    "pruebas": [
+      {
+        "id": "P3",
+        "tipo": "correo",
+        "relacion": "soporta",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P4",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P5",
+        "tipo": "testimonio",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      },
+      {
+        "id": "P6",
+        "tipo": "peritaje",
+        "relacion": "soporta",
+        "fuerza": 0.6
+      },
+      {
+        "id": "P7",
+        "tipo": "acta",
+        "relacion": "soporta",
+        "fuerza": 0.7
+      },
+      {
+        "id": "P8",
+        "tipo": "contrato",
+        "relacion": "contradice",
+        "fuerza": 0.8
+      },
+      {
+        "id": "P9",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.9
+      },
+      {
+        "id": "P10",
+        "tipo": "contrato",
+        "relacion": "soporta",
+        "fuerza": 0.5
+      }
+    ],
+    "normas": [
+      {
+        "id": "N1",
+        "texto": "PRUEBAS APORTADAS\nP1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 20",
+        "fuente": "expediente, página 2"
+      },
+      {
+        "id": "N2",
+        "texto": "ones contractuales), 1602\nPRETENSIONES\nPRETENSION PRINCIPAL: Declarar que la demandada incumplio el ",
+        "fuente": "expediente, página 3"
+      }
+    ],
+    "estado": "completo",
+    "riesgo": "bajo",
+    "accion_sugerida": "preservar prueba y preparar alegato",
+    "agente": "agente_hpn",
+    "revision_humana": "pendiente",
+    "contradicciones": "",
+    "fuente_expediente": "pagina 3, fragmento frag-003"
+  }
+]

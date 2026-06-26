@@ -1,0 +1,37 @@
+{
+  "cobertura_elementos_juridicos": 100.0,
+  "cobertura_probatoria": 100.0,
+  "cobertura_normativa": 100.0,
+  "indice_vacios_criticos": {
+    "cantidad": 0,
+    "porcentaje": 0.0
+  },
+  "indice_contradiccion": {
+    "cantidad": 0,
+    "porcentaje": 0.0
+  },
+  "debilidad_argumentativa": {
+    "cantidad": 0,
+    "porcentaje": 0.0
+  },
+  "acciones_pendientes": {
+    "cantidad": 14,
+    "porcentaje": 100.0
+  },
+  "trazabilidad": {
+    "con_fuente": 100.0,
+    "con_agente": 100.0
+  },
+  "total_nodos": 30,
+  "total_aristas": 142,
+  "densidad_red": 0.1632,
+  "grado_promedio": 9.47,
+  "grado_maximo": 14,
+  "grado_minimo": 0,
+  "distribucion_capas": {
+    "hecho": 14,
+    "prueba": 10,
+    "norma": 2,
+    "actor": 4
+  }
+}

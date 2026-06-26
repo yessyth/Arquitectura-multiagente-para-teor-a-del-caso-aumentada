@@ -1,0 +1,72 @@
+ID,Elemento Juridico,Hecho,Hecho ID,Pruebas,Normas,Estado,Riesgo,Contradicciones,Accion Sugerida,Agente,Revision Humana,Fuente Expediente
+HPN-001,incumplimiento contractual,"2024-00123
+Juzgado Civil del Circuito de Pamplona
+HECHOS DEL CASO
+PRIMERO: El dia 15 de enero de 2024, el senor Carlos Andres Martinez (demandante) y la empresa Tecnol
+SEGUNDO: El contrato establecia ",H1,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 1, fragmento frag-001"
+HPN-002,obligacion de pago,"El dia 15 de enero de 2024, el senor Carlos Andres Martinez (demandante) y la empresa Tecnol",H2,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 1, fragmento frag-001"
+HPN-003,plazo de entrega,"El contrato establecia un plazo de entrega de 90 dias calendario, contados a partir de la fe",H3,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 1, fragmento frag-001"
+HPN-004,calidad del servicio,"El valor total del contrato fue de $120.000.000 (CIENTO VEINTE MILLONES DE PESOS), pagaderos",H4,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 1, fragmento frag-001"
+HPN-005,responsabilidad contractual,"La demandada recibio el anticipo el 20 de enero de 2024, pero no cumplio con el cronograma de",H5,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 1, fragmento frag-001"
+HPN-006,existencia del contrato,"A la fecha de vencimiento del plazo (15 de abril de 2024), la demandada no habia entregado el",H6,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 1, fragmento frag-001"
+HPN-007,causal de excepcion,"PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado el 15 de enero de 2024.",H7,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 2, fragmento frag-002"
+HPN-008,pretension principal,"Documento que c
+P2: Comprobantes de pago del anticipo por $48.000.000 del 20 de enero de 2024, que acreditan el cumpl
+P3: Correos electronicos del demandante de fechas 20 de abril, 5 de mayo y 15 de m",H8,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 2, fragmento frag-002"
+HPN-009,pretension subsidiaria,"La demandante recibio 
+P6: Peritaje tecnico del ingeniero de sistemas que concluye que el sistema presenta un avance del 60%
+P7: Testimonio del jefe de sistemas del demandante, quien afirma que el sis",H9,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 2, fragmento frag-002"
+HPN-010,dano emergente,Auto admisorio notificado el 25 de junio de 2024.,H10,"P1 (contrato, contradice, 0.6); P2 (contrato, soporta, 0.7); P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 2, fragmento frag-002"
+HPN-011,lucro cesante,"NORMAS APLICABLES
+El contrato se rige por el Codigo Civil Colombiano: articulos 1500 (obligaciones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la demandada incumplio el contra",H11,"P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 3, fragmento frag-003"
+HPN-012,perjuicio moral,"Alega la demandada que el re
+SEGUNDA: Cumplimiento de la obligacion.",H12,"P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 3, fragmento frag-003"
+HPN-013,carga de la prueba,"Alega la demandada que realizo entregas parciales recibidas s
+TERCERA: Cobro de lo no debido.",H13,"P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 3, fragmento frag-003"
+HPN-014,prescripcion de la accion,"Alega que el contrato no preveia penalidades en los terminos pretendi
+CUARTA: Prescripcion de la accion cambiaria.",H14,"P3 (correo, soporta, 0.8); P4 (contrato, soporta, 0.9); P5 (testimonio, soporta, 0.5); P6 (peritaje, soporta, 0.6); P7 (acta, soporta, 0.7); P8 (contrato, contradice, 0.8); P9 (contrato, soporta, 0.9); P10 (contrato, soporta, 0.5)","N1: PRUEBAS APORTADAS
+P1: Contrato de prestacion de servicios profesionales firmado ; N2: ones contractuales), 1602
+PRETENSIONES
+PRETENSION PRINCIPAL: Declarar que la dem",completo,bajo,,preservar prueba y preparar alegato,agente_hpn,pendiente,"pagina 3, fragmento frag-003"

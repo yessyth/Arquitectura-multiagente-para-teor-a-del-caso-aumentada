@@ -1,0 +1,255 @@
+[
+  {
+    "id": "S1",
+    "nombre": "Exclusión de prueba crítica",
+    "descripcion": "Se retira una prueba crítica del acervo probatorio por inadmisibilidad o falta de cadena de custodia",
+    "supuestos": [
+      "Prueba P1 es declarada inadmisible",
+      "El juez excluye la prueba por falta de cadena de custodia",
+      "No existe prueba redundante para los hechos H1-H3"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 90.0,
+      "cobertura_probatoria": 85.0,
+      "vacios_criticos": 1,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Buscar prueba redundante antes de audiencia",
+      "Modular afirmaciones sobre hechos que perdieron soporte",
+      "Preparar argumento de apelacion si la exclusion es recurrible",
+      "Evaluar si la teoria del caso requiere replantearse"
+    ],
+    "confianza": "media"
+  },
+  {
+    "id": "S2",
+    "nombre": "Activación de excepción procesal",
+    "descripcion": "La contraparte activa una excepción de prescripción, caducidad o fuerza mayor",
+    "supuestos": [
+      "Excepcion de prescripcion extintiva es admitida",
+      "El plazo para accionar judicialmente habria vencido",
+      "Nexo causal entre hechos y pretension se debilita"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 90.0,
+      "cobertura_probatoria": 85.0,
+      "vacios_criticos": 1,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Preparar contraexcepcion basada en actos de interrupcion de prescripcion",
+      "Revisar fechas de notificacion y requerimientos",
+      "Plantear pretension subsidiaria no afectada por prescripcion",
+      "Evaluar viabilidad de conciliacion"
+    ],
+    "confianza": "media-baja"
+  },
+  {
+    "id": "S3",
+    "nombre": "Testigo contradictorio",
+    "descripcion": "Un testigo clave de la contraparte contradice la version de los hechos presentada",
+    "supuestos": [
+      "Testigo T1 presenta version incompatible con H2",
+      "Documentacion existente no permite corroborar completamente",
+      "La contradiccion afecta credibilidad de la teoria"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 85.0,
+      "cobertura_probatoria": 85.0,
+      "vacios_criticos": 1,
+      "contradicciones": 1
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Preparar contraexamen detallado del testigo",
+      "Buscar prueba documental que respalde la version propia",
+      "Identificar inconsistencias en el testimonio de la contraparte",
+      "Evaluar impacto en credibilidad general"
+    ],
+    "confianza": "media"
+  },
+  {
+    "id": "S4",
+    "nombre": "Inadmisibilidad documental",
+    "descripcion": "Documento clave es marcado como inadmisible por defectos formales",
+    "supuestos": [
+      "Documento D3 no cumple requisitos de presentacion",
+      "No se admitio por extemporaneo",
+      "Afecta soporte de pretension principal"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 90.0,
+      "cobertura_probatoria": 85.0,
+      "vacios_criticos": 1,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Subsanar defectos formales si es posible",
+      "Reemplazar con documento alternativo",
+      "Replantear estrategia de litigio"
+    ],
+    "confianza": "media"
+  },
+  {
+    "id": "S5",
+    "nombre": "Precedente distinguido",
+    "descripcion": "El juez distingue el precedente jurisprudencial citado como fundamento",
+    "supuestos": [
+      "Precedente J1 es distinguido por diferencias facticas",
+      "Argumento principal pierde soporte jurisprudencial",
+      "Necesidad de buscar nueva linea jurisprudencial"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 90.0,
+      "cobertura_probatoria": 85.0,
+      "vacios_criticos": 1,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Buscar nueva linea jurisprudencial aplicable",
+      "Reforzar argumentacion con doctrina",
+      "Diferenciar el caso del precedente distinguido",
+      "Preparar argumento alternativo"
+    ],
+    "confianza": "media-baja"
+  },
+  {
+    "id": "S6",
+    "nombre": "Incorporacion de peritaje tecnico",
+    "descripcion": "Se incorpora una prueba pericial tecnica que favorece la teoria del caso",
+    "supuestos": [
+      "Peritaje tecnico P5 cuantifica el dano reclamado",
+      "Prueba pericial es admitida sin objeciones",
+      "Refuerza nexo causal y cuantificacion"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 100,
+      "cobertura_probatoria": 100,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Incorporar peritaje en alegatos",
+      "Preparar contrainterrogatorio a perito de contraparte",
+      "Usar peritaje como base de cuantificacion en audiencia"
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "S7",
+    "nombre": "Limite temporal - Prescripcion o caducidad",
+    "descripcion": "Se activa un limite temporal que afecta la viabilidad de ciertas pretensiones",
+    "supuestos": [
+      "Plazo de prescripcion de accion principal esta por vencer",
+      "Actos de interrupcion no estan claramente acreditados",
+      "Urgencia de actuacion judicial"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Presentar demanda o medida cautelar con caracter urgente",
+      "Acreditar actos de interrupcion de prescripcion",
+      "Evaluar pretensiones no prescritas como alternativa"
+    ],
+    "confianza": "alta"
+  },
+  {
+    "id": "S8",
+    "nombre": "Escenario de conciliacion",
+    "descripcion": "Se evaluan costos y riesgos de una posible conciliacion frente al litigio",
+    "supuestos": [
+      "Contraparte muestra disposicion a negociar",
+      "Costos procesales pueden superar beneficio esperado",
+      "Riesgo de perder en juicio es significativo"
+    ],
+    "antes": {
+      "cobertura_elementos": 100.0,
+      "cobertura_probatoria": 100.0,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "despues": {
+      "cobertura_elementos": 100,
+      "cobertura_probatoria": 100,
+      "vacios_criticos": 0,
+      "contradicciones": 0
+    },
+    "nodos_afectados": [
+      "multiple"
+    ],
+    "acciones_sugeridas": [
+      "Preparar propuesta de conciliacion con rangos negociables",
+      "Evaluar costo-beneficio de litigar vs conciliar",
+      "Revisar pretensiones minimas aceptables",
+      "Presentar alternativa al cliente con escenarios comparativos"
+    ],
+    "confianza": "media"
+  }
+]
